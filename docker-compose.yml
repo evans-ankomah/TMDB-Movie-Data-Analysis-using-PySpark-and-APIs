@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  tmdb-pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tmdb-pyspark-pipeline
+    environment:
+      - PYSPARK_SUBMIT_ARGS=--master local[*] pyspark-shell
+    volumes:
+      - .:/app
+      - ./output:/app/output
+    working_dir: /app
+    command: python3 main.py
+    networks:
+      - tmdb-network
+  jupyter:
+    build: .
+    container_name: tmdb-jupyter
+    ports:
+      - "8888:8888"
+    environment:
+      - PYSPARK_PYTHON=/usr/bin/python3
+      - PYSPARK_DRIVER_PYTHON=/usr/bin/python3
+      - JUPYTER_RUNTIME_DIR=/tmp/jupyter_runtime
+      - JUPYTER_CONFIG_DIR=/tmp/jupyter_config
+      - JUPYTER_DATA_DIR=/tmp/jupyter_data
+    volumes:
+      - .:/app
+      - ./output:/app/output
+    working_dir: /app
+    command: jupyter notebook --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token='' --NotebookApp.password=''
+    networks:
+      - tmdb-network
+networks:
+  tmdb-network:
+    driver: bridge

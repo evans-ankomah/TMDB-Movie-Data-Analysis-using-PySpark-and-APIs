@@ -1,0 +1,62 @@
+2026-01-13 13:33:27 | INFO     | tmdb_pipeline | Logger initialized at 2026-01-13 13:33:27
+2026-01-13 13:33:42 | INFO     | tmdb_pipeline | Starting extraction for 19 movies...
+2026-01-13 13:33:42 | INFO     | tmdb_pipeline | ==================================================
+2026-01-13 13:33:42 | WARNING  | tmdb_pipeline | Skipping invalid movie ID: 0
+2026-01-13 13:33:42 | WARNING  | tmdb_pipeline | [1/19] Failed to fetch movie ID: 0
+2026-01-13 13:33:42 | DEBUG    | tmdb_pipeline | Fetching movie ID 299534 (attempt 1/4)
+2026-01-13 13:33:43 | INFO     | tmdb_pipeline | Successfully fetched movie ID 299534
+2026-01-13 13:33:43 | INFO     | tmdb_pipeline | [2/19] Fetched: Avengers: Endgame
+2026-01-13 13:33:43 | DEBUG    | tmdb_pipeline | Fetching movie ID 19995 (attempt 1/4)
+2026-01-13 13:33:43 | INFO     | tmdb_pipeline | Successfully fetched movie ID 19995
+2026-01-13 13:33:43 | INFO     | tmdb_pipeline | [3/19] Fetched: Avatar
+2026-01-13 13:33:43 | DEBUG    | tmdb_pipeline | Fetching movie ID 140607 (attempt 1/4)
+2026-01-13 13:33:44 | INFO     | tmdb_pipeline | Successfully fetched movie ID 140607
+2026-01-13 13:33:44 | INFO     | tmdb_pipeline | [4/19] Fetched: Star Wars: The Force Awakens
+2026-01-13 13:33:44 | DEBUG    | tmdb_pipeline | Fetching movie ID 299536 (attempt 1/4)
+2026-01-13 13:33:45 | INFO     | tmdb_pipeline | Successfully fetched movie ID 299536
+2026-01-13 13:33:45 | INFO     | tmdb_pipeline | [5/19] Fetched: Avengers: Infinity War
+2026-01-13 13:33:45 | DEBUG    | tmdb_pipeline | Fetching movie ID 597 (attempt 1/4)
+2026-01-13 13:33:45 | INFO     | tmdb_pipeline | Successfully fetched movie ID 597
+2026-01-13 13:33:45 | INFO     | tmdb_pipeline | [6/19] Fetched: Titanic
+2026-01-13 13:33:45 | DEBUG    | tmdb_pipeline | Fetching movie ID 135397 (attempt 1/4)
+2026-01-13 13:33:46 | INFO     | tmdb_pipeline | Successfully fetched movie ID 135397
+2026-01-13 13:33:46 | INFO     | tmdb_pipeline | [7/19] Fetched: Jurassic World
+2026-01-13 13:33:46 | DEBUG    | tmdb_pipeline | Fetching movie ID 420818 (attempt 1/4)
+2026-01-13 13:33:46 | INFO     | tmdb_pipeline | Successfully fetched movie ID 420818
+2026-01-13 13:33:46 | INFO     | tmdb_pipeline | [8/19] Fetched: The Lion King
+2026-01-13 13:33:46 | DEBUG    | tmdb_pipeline | Fetching movie ID 24428 (attempt 1/4)
+2026-01-13 13:33:47 | INFO     | tmdb_pipeline | Successfully fetched movie ID 24428
+2026-01-13 13:33:47 | INFO     | tmdb_pipeline | [9/19] Fetched: The Avengers
+2026-01-13 13:33:47 | DEBUG    | tmdb_pipeline | Fetching movie ID 168259 (attempt 1/4)
+2026-01-13 13:33:47 | INFO     | tmdb_pipeline | Successfully fetched movie ID 168259
+2026-01-13 13:33:47 | INFO     | tmdb_pipeline | [10/19] Fetched: Furious 7
+2026-01-13 13:33:47 | DEBUG    | tmdb_pipeline | Fetching movie ID 99861 (attempt 1/4)
+2026-01-13 13:33:47 | INFO     | tmdb_pipeline | Successfully fetched movie ID 99861
+2026-01-13 13:33:47 | INFO     | tmdb_pipeline | [11/19] Fetched: Avengers: Age of Ultron
+2026-01-13 13:33:47 | DEBUG    | tmdb_pipeline | Fetching movie ID 284054 (attempt 1/4)
+2026-01-13 13:33:48 | INFO     | tmdb_pipeline | Successfully fetched movie ID 284054
+2026-01-13 13:33:48 | INFO     | tmdb_pipeline | [12/19] Fetched: Black Panther
+2026-01-13 13:33:48 | DEBUG    | tmdb_pipeline | Fetching movie ID 12445 (attempt 1/4)
+2026-01-13 13:33:48 | INFO     | tmdb_pipeline | Successfully fetched movie ID 12445
+2026-01-13 13:33:48 | INFO     | tmdb_pipeline | [13/19] Fetched: Harry Potter and the Deathly Hallows: Part 2
+2026-01-13 13:33:48 | DEBUG    | tmdb_pipeline | Fetching movie ID 181808 (attempt 1/4)
+2026-01-13 13:33:49 | INFO     | tmdb_pipeline | Successfully fetched movie ID 181808
+2026-01-13 13:33:49 | INFO     | tmdb_pipeline | [14/19] Fetched: Star Wars: The Last Jedi
+2026-01-13 13:33:49 | DEBUG    | tmdb_pipeline | Fetching movie ID 330457 (attempt 1/4)
+2026-01-13 13:33:49 | INFO     | tmdb_pipeline | Successfully fetched movie ID 330457
+2026-01-13 13:33:49 | INFO     | tmdb_pipeline | [15/19] Fetched: Frozen II
+2026-01-13 13:33:49 | DEBUG    | tmdb_pipeline | Fetching movie ID 351286 (attempt 1/4)
+2026-01-13 13:33:50 | INFO     | tmdb_pipeline | Successfully fetched movie ID 351286
+2026-01-13 13:33:50 | INFO     | tmdb_pipeline | [16/19] Fetched: Jurassic World: Fallen Kingdom
+2026-01-13 13:33:50 | DEBUG    | tmdb_pipeline | Fetching movie ID 109445 (attempt 1/4)
+2026-01-13 13:33:50 | INFO     | tmdb_pipeline | Successfully fetched movie ID 109445
+2026-01-13 13:33:50 | INFO     | tmdb_pipeline | [17/19] Fetched: Frozen
+2026-01-13 13:33:50 | DEBUG    | tmdb_pipeline | Fetching movie ID 321612 (attempt 1/4)
+2026-01-13 13:33:51 | INFO     | tmdb_pipeline | Successfully fetched movie ID 321612
+2026-01-13 13:33:51 | INFO     | tmdb_pipeline | [18/19] Fetched: Beauty and the Beast
+2026-01-13 13:33:51 | DEBUG    | tmdb_pipeline | Fetching movie ID 260513 (attempt 1/4)
+2026-01-13 13:33:51 | INFO     | tmdb_pipeline | Successfully fetched movie ID 260513
+2026-01-13 13:33:51 | INFO     | tmdb_pipeline | [19/19] Fetched: Incredibles 2
+2026-01-13 13:33:51 | INFO     | tmdb_pipeline | ==================================================
+2026-01-13 13:33:51 | INFO     | tmdb_pipeline | Extraction complete: 18 successful, 1 failed
+2026-01-13 13:33:51 | INFO     | tmdb_pipeline | Total movies fetched: 18
