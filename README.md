@@ -77,52 +77,41 @@ The pipeline processes data for movies across multiple franchises, genres, and t
 
 ## Architecture
 
+<div align="center">
+
+```mermaid
+graph TD
+    A[TMDb API<br/>Data Source] --> B[EXTRACTION LAYER]
+    
+    B --> B1["• API Client (extract.py)<br/>• Parallel fetching with retries<br/>• JSON response handling"]
+    
+    B1 --> C[TRANSFORMATION LAYER]
+    
+    C --> C1["• PySpark DataFrame creation<br/>• Data cleaning & validation<br/>• Type conversion & normalization<br/>• Feature engineering"]
+    
+    C1 --> D[ANALYSIS LAYER]
+    
+    D --> D1["• KPI calculations<br/>• Ranking operations<br/>• Aggregations & comparisons<br/>• Custom search queries"]
+    
+    D1 --> E[VISUALIZATION LAYER]
+    
+    E --> E1["• Chart generation (matplotlib)<br/>• Statistical plots (seaborn)<br/>• Export to PNG files"]
+    
+    E1 --> F[OUTPUT FOLDER<br/>Results & Visualizations]
+    
+    style A fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style B fill:#50C878,stroke:#2E7D4E,stroke-width:3px,color:#fff
+    style C fill:#FFB347,stroke:#CC8A38,stroke-width:3px,color:#fff
+    style D fill:#9B59B6,stroke:#6A3D82,stroke-width:3px,color:#fff
+    style E fill:#E74C3C,stroke:#A82315,stroke-width:3px,color:#fff
+    style F fill:#2ECC71,stroke:#1E874B,stroke-width:3px,color:#fff
+    style B1 fill:#E8F5E9,stroke:#2E5C8A,stroke-width:2px
+    style C1 fill:#FFF3E0,stroke:#CC8A38,stroke-width:2px
+    style D1 fill:#F3E5F5,stroke:#6A3D82,stroke-width:2px
+    style E1 fill:#FFEBEE,stroke:#A82315,stroke-width:2px
 ```
-┌─────────────────┐
-│   TMDb API      │
-│  (Data Source)  │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────────────────────────┐
-│     EXTRACTION LAYER                │
-│  - API Client (extract.py)          │
-│  - Parallel fetching with retries   │
-│  - JSON response handling           │
-└─────────────┬───────────────────────┘
-              │
-              ▼
-┌─────────────────────────────────────┐
-│   TRANSFORMATION LAYER              │
-│  - PySpark DataFrame creation       │
-│  - Data cleaning & validation       │
-│  - Type conversion & normalization  │
-│  - Feature engineering              │
-└─────────────┬───────────────────────┘
-              │
-              ▼
-┌─────────────────────────────────────┐
-│     ANALYSIS LAYER                  │
-│  - KPI calculations                 │
-│  - Ranking operations               │
-│  - Aggregations & comparisons       │
-│  - Custom search queries            │
-└─────────────┬───────────────────────┘
-              │
-              ▼
-┌─────────────────────────────────────┐
-│   VISUALIZATION LAYER               │
-│  - Chart generation (matplotlib)    │
-│  - Statistical plots (seaborn)      │
-│  - Export to PNG files              │
-└─────────────┬───────────────────────┘
-              │
-              ▼
-        ┌──────────┐
-        │  OUTPUT  │
-        │  FOLDER  │
-        └──────────┘
-```
+
+</div>
 
 ---
 
