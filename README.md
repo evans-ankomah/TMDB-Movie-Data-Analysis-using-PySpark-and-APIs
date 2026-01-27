@@ -99,16 +99,16 @@ graph TD
     
     E1 --> F[OUTPUT FOLDER<br/>Results & Visualizations]
     
-    style A fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style B fill:#50C878,stroke:#2E7D4E,stroke-width:3px,color:#fff
-    style C fill:#FFB347,stroke:#CC8A38,stroke-width:3px,color:#fff
-    style D fill:#9B59B6,stroke:#6A3D82,stroke-width:3px,color:#fff
-    style E fill:#E74C3C,stroke:#A82315,stroke-width:3px,color:#fff
-    style F fill:#2ECC71,stroke:#1E874B,stroke-width:3px,color:#fff
-    style B1 fill:#E8F5E9,stroke:#2E5C8A,stroke-width:2px
-    style C1 fill:#FFF3E0,stroke:#CC8A38,stroke-width:2px
-    style D1 fill:#F3E5F5,stroke:#6A3D82,stroke-width:2px
-    style E1 fill:#FFEBEE,stroke:#A82315,stroke-width:2px
+    style A fill:#5B7C99,stroke:#3D5266,stroke-width:3px,color:#fff
+    style B fill:#6B8E7F,stroke:#4A5F56,stroke-width:3px,color:#fff
+    style C fill:#C7956D,stroke:#8B6A4D,stroke-width:3px,color:#fff
+    style D fill:#7D6B8E,stroke:#544A5F,stroke-width:3px,color:#fff
+    style E fill:#A66B6B,stroke:#6E4A4A,stroke-width:3px,color:#fff
+    style F fill:#6E8E6B,stroke:#4A5F48,stroke-width:3px,color:#fff
+    style B1 fill:#D9E4DD,stroke:#3D5266,stroke-width:2px
+    style C1 fill:#E8DFD4,stroke:#8B6A4D,stroke-width:2px
+    style D1 fill:#E0DBE4,stroke:#544A5F,stroke-width:2px
+    style E1 fill:#E4D9D9,stroke:#6E4A4A,stroke-width:2px
 ```
 
 </div>
