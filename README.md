@@ -1,8 +1,8 @@
 # TMDB Movie Data Analysis using PySpark and APIs
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![PySpark](https://img.shields.io/badge/PySpark-3.4.0-orange.svg)](https://spark.apache.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python]
+[![PySpark]
+[![TMBD_API]
 
 A comprehensive **ETL pipeline** for movie data analysis leveraging **PySpark** and the **TMDb API**. This project demonstrates big data processing capabilities by extracting, transforming, and analyzing movie datasets to uncover insights about revenue trends, franchise performance, director success, and more.
 
@@ -99,16 +99,17 @@ graph TD
     
     E1 --> F[OUTPUT FOLDER<br/>Results & Visualizations]
     
-    style A fill:#5B7C99,stroke:#3D5266,stroke-width:3px,color:#fff
-    style B fill:#6B8E7F,stroke:#4A5F56,stroke-width:3px,color:#fff
-    style C fill:#C7956D,stroke:#8B6A4D,stroke-width:3px,color:#fff
-    style D fill:#7D6B8E,stroke:#544A5F,stroke-width:3px,color:#fff
-    style E fill:#A66B6B,stroke:#6E4A4A,stroke-width:3px,color:#fff
-    style F fill:#6E8E6B,stroke:#4A5F48,stroke-width:3px,color:#fff
-    style B1 fill:#D9E4DD,stroke:#3D5266,stroke-width:2px
-    style C1 fill:#E8DFD4,stroke:#8B6A4D,stroke-width:2px
-    style D1 fill:#E0DBE4,stroke:#544A5F,stroke-width:2px
-    style E1 fill:#E4D9D9,stroke:#6E4A4A,stroke-width:2px
+    style A fill:#5E81AC,stroke:#3B577D,stroke-width:3px,color:#fff
+    style B fill:#88C0D0,stroke:#5E81AC,stroke-width:3px,color:#fff
+    style C fill:#EBCB8B,stroke:#C2A36B,stroke-width:3px,color:#fff
+    style D fill:#B48EAD,stroke:#84637D,stroke-width:3px,color:#fff
+    style E fill:#BF616A,stroke:#8C3D45,stroke-width:3px,color:#fff
+    style F fill:#A3BE8C,stroke:#748F5D,stroke-width:3px,color:#fff
+    
+    style B1 fill:#E5E9F0,stroke:#5E81AC,stroke-width:2px,color:#2E3440
+    style C1 fill:#ECEFF4,stroke:#C2A36B,stroke-width:2px,color:#2E3440
+    style D1 fill:#E5E9F0,stroke:#84637D,stroke-width:2px,color:#2E3440
+    style E1 fill:#ECEFF4,stroke:#8C3D45,stroke-width:2px,color:#2E3440
 ```
 
 </div>
